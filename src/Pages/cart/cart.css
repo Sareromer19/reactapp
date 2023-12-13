@@ -1,0 +1,67 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 3px 15px rgba(16, 15, 15, 0.2);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.cartItem img {
+    width: 140px;
+}
+
+.cartItem .description {
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.countHandler input {
+    width: 40px;
+    text-align: center;
+    
+}
+
+.countHandler {
+    text-align: right;
+    font-size: small;
+  
+   
+}
+.rem {
+    align-items: right;
+    text-align: right;
+    cursor: pointer;
+    
+}
+.rem button {
+
+    text-decoration: none;
+    background-color: transparent;
+    
+    
+}
+.placeorder button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 178, 127);
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
